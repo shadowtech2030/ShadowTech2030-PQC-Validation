@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-06",
+  "limitations": [
+    "Internal software-readiness milestone",
+    "Not independent third-party certification",
+    "Not physical HSM certification",
+    "Not TPM or secure-element certification",
+    "Not QKD hardware certification",
+    "Not physical tamper-resistance certification",
+    "Not side-channel certification",
+    "No claim that all attack paths are eliminated"
+  ],
+  "milestone": {
+    "external_validation_readiness": "READY",
+    "name": "Block 25 - Field Hardening / External Validation Readiness",
+    "status": "PASS"
+  },
+  "organization": "Shadow-Tech2030 Inc.",
+  "product": "Shadow-Tech2030 PQC Engine",
+  "public_claim": "Ready for external software validation",
+  "public_package_contains_proprietary_source": false,
+  "public_package_contains_raw_logs": false,
+  "schema": "Shadow-Tech2030 PQC Engine-public-validation-v1",
+  "snapshot_id": "SQ-PUBLIC-B25-2026-10-06",
+  "validation": {
+    "central_quantum_edge_e2e": [
+      "PASS",
+      "PASS"
+    ],
+    "e2e_failure_campaign": [
+      "PASS",
+      "PASS"
+    ],
+    "full_pytest_passed_count": 1291,
+    "full_pytest_regression": "PASS",
+    "git_working_tree_clean": "PASS",
+    "secure_local_continuity": [
+      "PASS",
+      "PASS"
+    ],
+    "successive_crypto_transition": [
+      "PASS",
+      "PASS"
+    ]
+  }
+}

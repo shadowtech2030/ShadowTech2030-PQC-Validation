@@ -1,0 +1,70 @@
+{
+  "campaigns": [
+    {
+      "name": "Successive Crypto Transition Campaign",
+      "passed": 24,
+      "status": "PASS",
+      "total": 24
+    },
+    {
+      "name": "Central / Quantum / Edge E2E Validation",
+      "passed": 10,
+      "status": "PASS",
+      "total": 10
+    },
+    {
+      "name": "E2E Failure Campaign",
+      "passed": 14,
+      "status": "PASS",
+      "total": 14
+    },
+    {
+      "name": "Secure Local Continuity",
+      "status": "VALIDATED"
+    },
+    {
+      "name": "Crypto Diversity Slots",
+      "status": "READY"
+    }
+  ],
+  "contains_proprietary_source": false,
+  "date": "2026-10-06",
+  "limitations": [
+    "Internal software-validation milestone",
+    "Not independent third-party certification",
+    "Not physical HSM/TPM/secure-element certification",
+    "Not QKD hardware certification",
+    "Not physical tamper-resistance certification",
+    "Not side-channel resistance certification",
+    "Synthetic next-generation KEM migration is simulation-only"
+  ],
+  "milestone": {
+    "commit_short": "ab1fe09",
+    "name": "Block 24 - Cryptographic Survivability",
+    "tag": "Shadow-Tech2030 PQC Engine-block24"
+  },
+  "public_crypto_state": {
+    "alternate_signature": {
+      "algorithm": "SLH-DSA-SHA2-256s",
+      "lifecycle": "ALLOWED"
+    },
+    "future_kem": {
+      "algorithm_family": "HQC",
+      "lifecycle": "LAB",
+      "production_claim": false
+    },
+    "hardware_custody": {
+      "physical_hsm_certified": false,
+      "pkcs11_software_boundary_validated": true,
+      "silent_software_fallback_when_hardware_required": false
+    },
+    "preferred_kem": "ML-KEM-1024",
+    "preferred_signature": "ML-DSA-65",
+    "qkd": {
+      "hardware_certified": false,
+      "role": "optional_high_assurance_input"
+    }
+  },
+  "schema": "Shadow-Tech2030 PQC Engine-public-validation-v1",
+  "snapshot_id": "SQ-PUBLIC-B24-2026-10-06"
+}
